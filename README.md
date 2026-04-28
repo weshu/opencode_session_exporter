@@ -2,6 +2,8 @@
 
 Export OpenCode sessions to Markdown files. Provides both CLI and web UI interfaces.
 
+![Web UI](docs/img/screenshot.png)
+
 ## Features
 
 - List OpenCode sessions
