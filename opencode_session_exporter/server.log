@@ -1,0 +1,60 @@
+INFO:     Started server process [25108]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61849 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /static/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61850 - "GET /static/app.js?v=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61850 - "GET /api/sessions?scope=current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52025 - "GET /api/sessions?scope=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52050 - "POST /api/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /api/sessions/ses_28a0bffeaffexlJS6yE9i3buCr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59295 - "GET /api/sessions/ses_24c3a70afffeTSuC4y6SU6hc6Y HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59363 - "GET /api/sessions/ses_24cc636edffern6mL70ir4g6wm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59653 - "GET /api/sessions/ses_24cc636edffern6mL70ir4g6wm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59654 - "GET /api/sessions/ses_24cc636edffern6mL70ir4g6wm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59654 - "GET /api/sessions/ses_24ccc3770ffeZlHN72uOkR0CmZ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59658 - "GET /api/sessions/ses_24ccc3770ffeZlHN72uOkR0CmZ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59717 - "GET /api/sessions/ses_28a0bffeaffexlJS6yE9i3buCr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59718 - "GET /api/sessions/ses_28a0bffeaffexlJS6yE9i3buCr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59751 - "GET /api/sessions/ses_25114741effe0At09CVEc6WJuY HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59756 - "POST /api/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59837 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59837 - "GET /static/styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59838 - "GET /static/app.js?v=3 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59838 - "GET /api/sessions?scope=current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59838 - "GET /api/sessions?scope=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59838 - "GET /api/sessions/ses_24ae93f62ffefc7LtpFPQ4J4Rb HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59838 - "POST /api/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60343 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60343 - "GET /api/sessions?scope=current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60343 - "GET /api/sessions?scope=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60343 - "GET /api/sessions/ses_247fdbe85ffe4my761siLsf1P6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60413 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60413 - "GET /api/sessions?scope=current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60413 - "GET /api/sessions?scope=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60413 - "GET /api/sessions/ses_247fdbe85ffe4my761siLsf1P6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60414 - "GET /api/sessions/ses_247fdbe85ffe4my761siLsf1P6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60442 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60442 - "GET /api/sessions?scope=current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60442 - "GET /api/sessions?scope=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60442 - "GET /api/sessions/ses_247fdbe85ffe4my761siLsf1P6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60443 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60443 - "GET /api/sessions?scope=current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60443 - "GET /api/sessions?scope=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60443 - "GET /api/sessions/ses_247fdbe85ffe4my761siLsf1P6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60449 - "POST /api/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60483 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60483 - "GET /api/sessions?scope=current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60483 - "GET /api/sessions?scope=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60483 - "GET /api/sessions/ses_247fdbe85ffe4my761siLsf1P6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60523 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60523 - "GET /api/sessions?scope=current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60523 - "GET /api/sessions?scope=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60523 - "GET /api/sessions/ses_247fdbe85ffe4my761siLsf1P6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60540 - "GET /api/sessions/ses_247fdbe85ffe4my761siLsf1P6 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [25108]

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenCode Session Exporter</title>
+    <link rel="stylesheet" href="/static/styles.css?v=2">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>OpenCode Session Exporter</h1>
+        </header>
+
+        <main class="main">
+            <div class="controls">
+                <div class="path-group">
+                    <input type="text" id="path-display" class="path-input" placeholder="Select or type folder path...">
+                    <div id="path-dropdown" class="path-dropdown hidden"></div>
+                </div>
+                <input type="text" id="search" class="search-input" placeholder="Search sessions...">
+            </div>
+
+            <div class="session-list-container">
+                <table class="session-table">
+                    <thead>
+                        <tr>
+                            <th class="col-select"><input type="checkbox" id="select-all" onchange="toggleSelectAll(this.checked)"></th>
+                            <th class="col-title">Title</th>
+                            <th class="col-date">Date</th>
+                            <th class="col-directory">Directory</th>
+                        </tr>
+                    </thead>
+                    <tbody id="session-list">
+                        <tr class="loading-row">
+                            <td colspan="4">Loading sessions...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="actions">
+                <button id="preview-btn" class="btn btn-secondary" disabled>Preview</button>
+                <button id="export-btn" class="btn btn-primary" disabled>Export Selected (<span id="selected-count">0</span>)</button>
+            </div>
+        </main>
+    </div>
+
+    <div id="preview-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Session Preview</h2>
+                <button id="modal-close" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-meta"></div>
+                <div id="modal-messages"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+
+    <script src="/static/app.js?v=6"></script>
+</body>
+</html>
